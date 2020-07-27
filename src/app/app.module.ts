@@ -18,6 +18,9 @@ import { AppDetailsComponent } from './Angular_Details_Module/angularDetails.com
     AppDetailsModule,
     RouterModule.forRoot([
       {
+        path: "", component: StoreComponent,
+      },
+      {
         path: "store", component: StoreComponent,
         canActivate: [StoreFirstGuard]
       },

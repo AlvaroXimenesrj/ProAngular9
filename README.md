@@ -38,6 +38,7 @@ npm install --save-dev json-server@0.16.0
 <br>
 npm install --save-dev jsonwebtoken@8.5.1
 <br>
+run moq serve: npm run json
 <br>
 
 angular.json:
